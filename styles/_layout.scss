@@ -1,0 +1,27 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+
+  .col {
+    width: 50%;
+    float: left;
+
+    h2 {
+      @include topic();
+    }
+  }
+}
+
+.input {
+  textarea {
+    background: $grey;
+    height: 400px;
+  }
+}
+
+.output {
+  .react-json-view {
+    padding: 1em;
+  }
+}

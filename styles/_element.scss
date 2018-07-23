@@ -1,0 +1,11 @@
+textarea {
+  width: calc(100% - 3em);
+  border: 1px solid $grey;
+  resize: none;
+  padding: 1em;
+
+  &:focus,
+  &:hover {
+    outline: 0;
+  }
+}
